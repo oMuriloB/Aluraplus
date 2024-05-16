@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: rgb(0, 172, 252);
+    color: beige;
+}
+
+.cabecalho-imagem {
+    width: 20%;
+}
+
+.cabecalho-lista-item {
+    display: inline-block;
+    margin: 0 16px;
+    padding: 24px 0;
+    font-size: 20px;
+}
+
+.cabecalho {
+    background-color: blue;
+    color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagem-descricao {
+    width: 25%;
+}
+
+.descricao {
+    background: linear-gradient(#383d58, #00c0eb);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.conteudo-descricao {
+    width: 35%;
+}
+
+.titulo-quem-sou-eu {
+    padding: 24px 0;
+}
+
+.estudante-imagem {
+    width: 120px;
+}
+.Estudante-icone{
+    width: 24px;
+}
+.Estudante-div{
+    text-align: center;
+}
+.Estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+span{
+    grid-template-columns: 20% 20% 20%;
+}
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+.dispositivos {
+    text-align: center;
+}
+.dispositivos__titulo {
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+.lista__item {
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+.lista__link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+}
+.rodape__texto {
+    margin: 1em 0;
+    color: var(--cinza-secundario);
+    font-size: 14px;
+}
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+.lista__link a:hover {
+    color: var(--botao-azul);
+}
+.lista__link a:active {
+    color: purple;
+}
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+    --botao-azul-efeito: #3c92fa;
+}
+.container__botao:hover {
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
+}
+
+
+
+
